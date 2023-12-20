@@ -144,6 +144,11 @@ return [
         // 'store' => 'redis',
     ],
 
+
+    'providers' => [
+        Davmixcool\MetaManager\MetaServiceProvider::class,
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Autoloaded Service Providers
